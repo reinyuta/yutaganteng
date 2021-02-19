@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.tengah{
+    padding-right: 12px;
+    align-items: center;
+}
+
+.lol{
+    color: pink;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lol:hover{
+    transition: color 0.5sec;
+    color: white;
+}
+
+.undo :hover{
+    text-decoration: none;
+    transition: 0.5s;
+    color: pink;
+}
+
+.text-center{
+    text-decoration: none;
+    margin-top: 20%;
+}
+
+.jono{
+	text-decoration: none;
+    position: relative;
+	color: white;
+}	
+
+.jono::after{
+	content: '';
+    width: 0%;
+    height: 2px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    bottom: %; left: 50%;
+    border-radius: 10px;
+    transition: all 3000ms ease;
+}
+
+.jono:hover::after{ 
+    left: 0%;
+    width: 100%;
+}
+
+.pip{
+    padding-right: 10px;
+}
+
+.imgbg img{
+    position: fixed;
+    margin-top: -8%;
+    filter: blur(10px);
+    height: 1080px;
+    width: 1920px;
+}
+
+.w3-xlarge{
+    cursor: pointer;
+}
+
+/* @media only screen and(min-width: 600px){
+    .imgbg img{
+        height: 720px;
+        width: 12800px;
+    }
+} */
+
+
+/* .gambar{
+    padding-top: 150px;
+}
+
+.kuik{
+    color: black;
+    padding-left: 500px;
+    padding-top: 500px;
+    position: absolute;
+}
+
+.atas{
+    text-decoration: none;
+} */

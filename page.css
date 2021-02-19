@@ -1,0 +1,25 @@
+body {
+    color: white;
+    position: relative;
+    background-color: black;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.pigo :hover{
+    transition: 0.5s;
+    color: pink;
+}
+
+
+.page {
+    padding-top: 45px;
+}
+
+.w3-xlarge{
+    cursor: pointer;
+}
+
+.pigo{
+    padding-top: 15px;
+}
