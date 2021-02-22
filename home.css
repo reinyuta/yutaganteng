@@ -17,7 +17,7 @@ body {
 }
 
 .lol:hover{
-    transition: color 0.5sec;
+    transition: color 0.5s;
     color: white;
 }
 
