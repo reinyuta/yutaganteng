@@ -5,7 +5,8 @@ body {
 }
 
 button {
-  width: 400px;
+  position: solid;
+  width: 320px;
   padding: 20px 0;
   text-align: center;
   margin: 20px 10px;
