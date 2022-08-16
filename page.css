@@ -1,25 +1,71 @@
 body {
-    color: white;
-    position: relative;
-    background-color: black;
-    padding-top: 5px;
-    align-items: center;
+  background-color: black;
+  position: relative;
+  align-items: center;
 }
 
-.pigo :hover{
-    transition: 0.5s;
-    color: pink;
+button {
+  width: 400px;
+  padding: 20px 0;
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
 }
 
-
-.page {
-    padding-top: 45px;
+button a {
+  color: white;
+  text-decoration: none;
 }
 
-.w3-xlarge{
-    cursor: pointer;
+.tengah {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 12px;
+  align-items: center;
 }
 
-.pigo{
-    padding-top: 15px;
+.pigo {
+  align-items: center;
+}
+
+.pigo .profile {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pigo .profile img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pigo .action {
+  margin-top: 5px;
+}
+
+.imgbg img {
+  position: fixed;
+  margin-top: -8%;
+  filter: blur(5px);
+  height: 1080px;
+  width: 1920px;
+}
+
+button :hover {
+  color: black;
+  transition: 0, 5;
+}
+
+.tulisan {
+  color: white;
 }
